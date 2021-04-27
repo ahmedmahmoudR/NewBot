@@ -19,10 +19,12 @@ namespace Microsoft.Teams.Apps.AskHR.Models
         /// </summary>
         public string Description { get; set; }
 
-        //Add location input//
-        public string Location {get; set;}
+        /// <summary>
+        /// Gets or sets the add loction.
+        /// </summary>
+        public string Location { get; set; }
 
-        //Add location input//
+        
 
         /// <summary>
         /// Gets or sets the question for the expert being asked by the user through Response card-
