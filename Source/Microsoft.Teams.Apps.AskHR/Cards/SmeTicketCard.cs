@@ -59,6 +59,13 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                         Weight = AdaptiveTextWeight.Bolder,
                         Wrap = true,
                     },
+                     new AdaptiveTextBlock
+                    {
+                        Text = this.Ticket.Location,
+                        Size = AdaptiveTextSize.Large,
+                        Weight = AdaptiveTextWeight.Bolder,
+                        Wrap = true,
+                    },
                     
                   
                     new AdaptiveTextBlock
