@@ -52,6 +52,13 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                         Weight = AdaptiveTextWeight.Bolder,
                         Wrap = true,
                     },
+                     new AdaptiveTextBlock
+                    {
+                        Text = this.Ticket.Location,
+                        Size = AdaptiveTextSize.Large,
+                        Weight = AdaptiveTextWeight.Bolder,
+                        Wrap = true,
+                    },
                     new AdaptiveTextBlock
                     {
                         Text = string.Format(Resource.QuestionForExpertSubHeaderText, this.Ticket.RequesterName),
@@ -138,6 +145,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                 Url = new Uri($"https://teams.microsoft.com/l/chat/0/0?users={Uri.EscapeDataString(this.Ticket.RequesterUserPrincipalName)}&message={encodedMessage}")
             };
         }
+
 
         /// <summary>
         /// Return the appropriate fact set based on the state and information in the ticket.
