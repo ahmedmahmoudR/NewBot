@@ -55,7 +55,7 @@ namespace Microsoft.Teams.Apps.AskHR.Common.Models
         /// <summary>
         /// Gets or sets the Your physicallocation 
         /// </summary>
-        [JsonProperty("physicallocation ")]
+        [JsonProperty("physicallocation")]
         public string physicallocation  { get; set; }
 
         /// <summary>

@@ -153,11 +153,11 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                     },
                     new AdaptiveTextInput
                     {
-                    Id = nameof(AskAnExpertCardPayload.Yourphysicallocation),
+                    Id = nameof(AskAnExpertCardPayload.physicallocation),
                         Placeholder = Resource.ShowCardTitleText,
                         IsMultiline = false,
                         Spacing = AdaptiveSpacing.Small,
-                        Value = data.Yourphysicallocation,
+                        Value = data.physicallocation,
                     }
                 },
                 Actions = new List<AdaptiveAction>
