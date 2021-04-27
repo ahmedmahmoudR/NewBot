@@ -130,6 +130,19 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                         IsMultiline = true,
                         Spacing = AdaptiveSpacing.Small,
                         Value = data.Description,
+                    },
+                    new AdaptiveTextBlock
+                    {
+                        Text = Resource.Locationtext1,
+                        Wrap = true
+                    },
+                    new AdaptiveTextInput
+                    {
+                    Id = nameof(AskAnExpertCardPayload.Location),
+                        Placeholder = Resource.ShowCardTitleText,
+                        IsMultiline = false,
+                        Spacing = AdaptiveSpacing.Small,
+                        Value = data.Location,
                     }
                 },
                 Actions = new List<AdaptiveAction>
