@@ -525,8 +525,4 @@ My key features:
     <value>TenantId</value>
     <comment>Tenant Id</comment>
   </data>
-  <data name="Locationtext1" xml:space="preserve">
-    <value>Location</value>
-    <comment>This Location Input</comment>
-  </data>
 </root>

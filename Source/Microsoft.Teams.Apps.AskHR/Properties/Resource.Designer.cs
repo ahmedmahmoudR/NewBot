@@ -70,18 +70,7 @@ namespace Microsoft.Teams.Apps.AskHR.Properties {
         }
 
 
-        /// <summary>
-        ///   Looks up a localized string similar to Description.
-        /// </summary>
-
-        public static string Locationtext1 {
-        get {
-            return ResourceManager.GetString("Locationtext1", resourceCulture)
-            }
-        
-        }
-      
-       
+            
         /// <summary>
         ///   Looks up a localized string similar to Send question.
         /// </summary>
