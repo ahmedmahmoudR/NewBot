@@ -148,7 +148,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                 },
                 new AdaptiveTextBlock
                     {
-                        Text = "Enter Your physical location",
+                        Text = "physical location",
                         Wrap = true
                     },
                     new AdaptiveTextInput
