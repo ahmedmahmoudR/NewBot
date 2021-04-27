@@ -146,20 +146,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                         Value = data.Location,
                     }
                 },
-                new AdaptiveTextBlock
-                    {
-                        Text = "physical location",
-                        Wrap = true
-                    },
-                    new AdaptiveTextInput
-                    {
-                    Id = nameof(AskAnExpertCardPayload.Physicallocation),
-                        Placeholder = Resource.ShowCardTitleText,
-                        IsMultiline = false,
-                        Spacing = AdaptiveSpacing.Small,
-                        Value = data.Physicallocation,
-                    }
-                },
+               
                 Actions = new List<AdaptiveAction>
                 {
                     new AdaptiveSubmitAction
