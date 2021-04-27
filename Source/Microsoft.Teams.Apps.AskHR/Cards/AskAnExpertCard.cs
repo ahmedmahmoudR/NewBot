@@ -133,7 +133,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                     },
                     new AdaptiveTextBlock
                     {
-                        Text = Enter Your Location,
+                        Text = "Enter Your Location",
                         Wrap = true
                     },
                     new AdaptiveTextInput
