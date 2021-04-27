@@ -38,7 +38,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
         /// Returns an attachment based on the state and information of the ticket.
         /// </summary>
         /// <param name="localTimestamp">Local timestamp of the user activity.</param>
-        /// <returns>Returns the attachment that will be sent in a message.</returns>
+        /// <returns>Returns the attachment that will be sent in a message</returns>
         public Attachment ToAttachment(DateTimeOffset? localTimestamp)
         {
             var card = new AdaptiveCard("1.0")
