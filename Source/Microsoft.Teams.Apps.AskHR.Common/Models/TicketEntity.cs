@@ -51,6 +51,12 @@ namespace Microsoft.Teams.Apps.AskHR.Common.Models
         [JsonProperty("Location")]
         public string Location { get; set; }
 
+        /// <summary>
+        /// Gets or sets the ticket Physicallocation
+        /// </summary>
+        [JsonProperty("Physicallocation")]
+        public string Physicallocation { get; set; }
+
 
         
         /// <summary>
