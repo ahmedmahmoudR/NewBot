@@ -22,6 +22,8 @@ namespace Microsoft.Teams.Apps.AskHR.Common.Models
         [JsonProperty("TicketId")]
         public string TicketId { get; set; }
 
+
+
         /// <summary>
         /// Gets or sets status of the ticket
         /// </summary>
@@ -48,6 +50,13 @@ namespace Microsoft.Teams.Apps.AskHR.Common.Models
         /// </summary>
         [JsonProperty("Location")]
         public string Location { get; set; }
+
+
+        /// <summary>
+        /// Gets or sets the Your physicallocation 
+        /// </summary>
+        [JsonProperty("physicallocation ")]
+        public string physicallocation  { get; set; }
 
         /// <summary>
         /// Gets or sets the created date of ticket

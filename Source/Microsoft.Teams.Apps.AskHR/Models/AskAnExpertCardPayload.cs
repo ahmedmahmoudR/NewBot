@@ -24,6 +24,12 @@ namespace Microsoft.Teams.Apps.AskHR.Models
         /// </summary>
         public string Location { get; set;}
 
+
+        /// <summary>
+        /// Gets or sets the add Your physical location 
+        /// </summary>
+        public string Yourphysicallocation  { get; set;}
+
         
 
         /// <summary>

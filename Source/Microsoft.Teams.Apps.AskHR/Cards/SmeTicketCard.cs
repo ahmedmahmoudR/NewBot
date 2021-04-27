@@ -179,8 +179,16 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
             {
                 factList.Add(new AdaptiveFact
                 {
-                    Title = "Location",
+                    Title = "Location :",
                     Value = this.Ticket.Location,
+                });
+            }
+             if (!string.IsNullOrEmpty(this.Ticket.Location))
+            {
+                factList.Add(new AdaptiveFact
+                {
+                    Title = " Your physical location  :",
+                    Value = this.Ticket.physicallocation ,
                 });
             }
 
