@@ -723,7 +723,6 @@ namespace Microsoft.Teams.Apps.AskHR.Bots
                 DateCreated = DateTime.UtcNow,
                 Title = data.Title,
                 Description = data.Description,
-                Physicallocation = data.Physicallocation,
                 Location = data.Location,
                 RequesterName = member.Name,
                 RequesterUserPrincipalName = member.UserPrincipalName,

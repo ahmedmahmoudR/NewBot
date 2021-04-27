@@ -184,14 +184,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                 });
             }
 
-             if (!string.IsNullOrEmpty(this.Ticket.Physicallocation))
-            {
-                factList.Add(new AdaptiveFact
-                {
-                    Title = " Your physical location:",
-                    Value = this.Ticket.Physicallocation,
-                });
-            }
+            
 
             if (!string.IsNullOrEmpty(this.Ticket.UserQuestion))
             {
