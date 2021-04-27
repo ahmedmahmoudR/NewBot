@@ -16,7 +16,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
     public static class AskAnExpertCard
     {
         /// <summary>
-        /// Text associated with ask an expert command
+        /// Text associated with ask an expert
         /// </summary>
         public const string AskAnExpertSubmitText = "QuestionForExpert";
 
