@@ -22,7 +22,7 @@ namespace Microsoft.Teams.Apps.AskHR.Models
         /// <summary>
         /// Gets or sets the add loction.
         /// </summary>
-        public string Location { get; set; }
+        public string Location { get; set;}
 
         
 

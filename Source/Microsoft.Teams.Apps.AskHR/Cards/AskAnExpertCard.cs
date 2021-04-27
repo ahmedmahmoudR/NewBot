@@ -74,6 +74,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                         Size = AdaptiveTextSize.Large,
                         Wrap = true
                     },
+
                     new AdaptiveTextBlock
                     {
                         Text = Resource.AskAnExpertSubheaderText,

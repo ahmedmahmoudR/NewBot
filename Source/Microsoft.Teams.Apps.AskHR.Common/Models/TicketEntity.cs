@@ -36,12 +36,18 @@ namespace Microsoft.Teams.Apps.AskHR.Common.Models
         [IsSearchable]
         [JsonProperty("Title")]
         public string Title { get; set; }
-
+        
         /// <summary>
         /// Gets or sets the ticket description
         /// </summary>
         [JsonProperty("Description")]
         public string Description { get; set; }
+
+        /// <summary>
+        /// Gets or sets the ticket Location
+        /// </summary>
+        [JsonProperty("Location")]
+        public string Location { get; set; }
 
         /// <summary>
         /// Gets or sets the created date of ticket
