@@ -54,12 +54,13 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                     },
                      new AdaptiveTextBlock
                     {
-                        Text = this.Ticket.Location,
+                        Text = "Hello world",
                         Size = AdaptiveTextSize.Large,
                         Weight = AdaptiveTextWeight.Bolder,
                         Wrap = true,
                     },
-                   
+                    
+                  
                     new AdaptiveTextBlock
                     {
                         Text = string.Format(Resource.QuestionForExpertSubHeaderText, this.Ticket.RequesterName),
@@ -163,6 +164,16 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                 {
                     Title = Resource.DescriptionFact,
                     Value = this.Ticket.Description,
+                });
+            }
+
+
+             if (!string.IsNullOrEmpty(this.Ticket.Location))
+            {
+                factList.Add(new AdaptiveFact
+                {
+                    Title = "Location",
+                    Value = this.Ticket.Location,
                 });
             }
 
