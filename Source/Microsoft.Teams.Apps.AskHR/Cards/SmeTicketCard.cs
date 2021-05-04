@@ -165,7 +165,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
             {
                 factList.Add(new AdaptiveFact
                 {
-                    Title = "Location :",
+                    Title = "IP address/computer account  :",
                     Value = this.Ticket.Location,
                 });
             }
@@ -174,7 +174,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
             {
                 factList.Add(new AdaptiveFact
                 {
-                    Title = "your Physical location :",
+                    Title = "Your physical location  :",
                     Value = this.Ticket.Physicallocation,
                 });
             }

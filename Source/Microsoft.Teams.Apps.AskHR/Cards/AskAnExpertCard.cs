@@ -121,7 +121,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                     },
                     new AdaptiveTextBlock
                     {
-                        Text = Resource.DescriptionText,
+                        Text = "Issue description",
                         Wrap = true
                     },
                     new AdaptiveTextInput
@@ -134,7 +134,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                     },
                     new AdaptiveTextBlock
                     {
-                        Text = "Enter Your Location",
+                        Text = "IP address/computer account ",
                         Wrap = true
                     },
                     new AdaptiveTextInput
@@ -147,7 +147,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                     },
                     new AdaptiveTextBlock
                     {
-                        Text = "Enter Your physical Location",
+                        Text = "Your physical location ",
                         Wrap = true
                     },
                     new AdaptiveTextInput
