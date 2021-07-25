@@ -141,7 +141,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                     {
                         Id = nameof(AskAnExpertCardPayload.Location),
                         Placeholder = "Please Enter your IP Address ",
-                        IsMultiline = true,
+                        IsMultiline = false,
                         Spacing = AdaptiveSpacing.Small,
                         Value = data.Location,
                     },
@@ -154,7 +154,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                     {
                         Id = nameof(AskAnExpertCardPayload.Mail),
                         Placeholder = "Please Enter your Mail ",
-                        IsMultiline = true,
+                        IsMultiline = false,
                         Spacing = AdaptiveSpacing.Small,
                         Value = data.Mail,
                     },
