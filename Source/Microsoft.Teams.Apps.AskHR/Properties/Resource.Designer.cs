@@ -4,7 +4,7 @@
 //     Runtime Version:4.0.30319.42000
 //
 //     Changes to this file may cause incorrect behavior and will be lost if
-//     the code is.
+//     the code is regenerated.
 // </auto-generated>
 //------------------------------------------------------------------------------
 
@@ -68,9 +68,7 @@ namespace Microsoft.Teams.Apps.AskHR.Properties {
                 return ResourceManager.GetString("AppFeedbackText", resourceCulture);
             }
         }
-
-
-            
+        
         /// <summary>
         ///   Looks up a localized string similar to Send question.
         /// </summary>
@@ -108,7 +106,7 @@ namespace Microsoft.Teams.Apps.AskHR.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Ask an expert.
+        ///   Looks up a localized string similar to Open ticket.
         /// </summary>
         public static string AskAnExpertText1 {
             get {
@@ -297,7 +295,7 @@ namespace Microsoft.Teams.Apps.AskHR.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Description.
+        ///   Looks up a localized string similar to Your Description:.
         /// </summary>
         public static string DescriptionText {
             get {

@@ -137,19 +137,36 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                         Text = "IP address/computer account ",
                         Wrap = true
                     },
+                    new AdaptiveTextInput
+                    {
+                        Id = nameof(AskAnExpertCardPayload.Location),
+                        Placeholder = Resource.AskAnExpertPlaceholderText,
+                        IsMultiline = true,
+                        Spacing = AdaptiveSpacing.Small,
+                        Value = data.Description,
+                    },
                      new AdaptiveTextBlock
                     {
                         Text = "Mail ",
                         Wrap = true
+                    },
+                     new AdaptiveTextInput
+                    {
+                        Id = nameof(AskAnExpertCardPayload.Mail),
+                        Placeholder = Resource.AskAnExpertPlaceholderText,
+                        IsMultiline = true,
+                        Spacing = AdaptiveSpacing.Small,
+                        Value = data.Description,
                     },
                       new AdaptiveTextBlock
                     {
                         Text = "Phone Number ",
                         Wrap = true
                     },
+
                     new AdaptiveTextInput
                     {
-                    Id = nameof(AskAnExpertCardPayload.Location),
+                    Id = nameof(AskAnExpertCardPayload.PhoneNumber),
                         Placeholder = Resource.ShowCardTitleText,
                         IsMultiline = false,
                         Spacing = AdaptiveSpacing.Small,
