@@ -140,10 +140,10 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                     new AdaptiveTextInput
                     {
                         Id = nameof(AskAnExpertCardPayload.Location),
-                        Placeholder = Resource.AskAnExpertPlaceholderText,
+                        Placeholder = "Please Enter your IP Address ",
                         IsMultiline = true,
                         Spacing = AdaptiveSpacing.Small,
-                        Value = data.Description,
+                        Value = data.Location,
                     },
                      new AdaptiveTextBlock
                     {
@@ -153,10 +153,10 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                      new AdaptiveTextInput
                     {
                         Id = nameof(AskAnExpertCardPayload.Mail),
-                        Placeholder = Resource.AskAnExpertPlaceholderText,
+                        Placeholder = "Please Enter your Mail ",
                         IsMultiline = true,
                         Spacing = AdaptiveSpacing.Small,
-                        Value = data.Description,
+                        Value = data.Mail,
                     },
                       new AdaptiveTextBlock
                     {
@@ -167,10 +167,10 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                     new AdaptiveTextInput
                     {
                     Id = nameof(AskAnExpertCardPayload.PhoneNumber),
-                        Placeholder = Resource.ShowCardTitleText,
+                        Placeholder = "Please Enter your Phone Number ",
                         IsMultiline = false,
                         Spacing = AdaptiveSpacing.Small,
-                        Value = data.Location,
+                        Value = data.PhoneNumber,
                     },
                     new AdaptiveTextBlock
                     {
