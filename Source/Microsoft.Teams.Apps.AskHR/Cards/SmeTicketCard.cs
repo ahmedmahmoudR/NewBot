@@ -179,7 +179,25 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                 });
             }
 
-            
+            if (!string.IsNullOrEmpty(this.Ticket.PhoneNumber))
+            {
+                factList.Add(new AdaptiveFact
+                {
+                    Title = "Phone Number  :",
+                    Value = this.Ticket.PhoneNumber,
+                });
+            }
+
+
+            if (!string.IsNullOrEmpty(this.Ticket.Mail))
+            {
+                factList.Add(new AdaptiveFact
+                {
+                    Title = "Mail  :",
+                    Value = this.Ticket.Mail,
+                });
+            }
+
 
             if (!string.IsNullOrEmpty(this.Ticket.UserQuestion))
             {

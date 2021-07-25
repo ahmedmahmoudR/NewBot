@@ -137,6 +137,16 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                         Text = "IP address/computer account ",
                         Wrap = true
                     },
+                     new AdaptiveTextBlock
+                    {
+                        Text = "Mail ",
+                        Wrap = true
+                    },
+                      new AdaptiveTextBlock
+                    {
+                        Text = "Phone Number ",
+                        Wrap = true
+                    },
                     new AdaptiveTextInput
                     {
                     Id = nameof(AskAnExpertCardPayload.Location),

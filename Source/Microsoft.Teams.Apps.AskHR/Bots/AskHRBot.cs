@@ -725,6 +725,8 @@ namespace Microsoft.Teams.Apps.AskHR.Bots
                 Description = data.Description,
                 Location = data.Location,
                 Physicallocation = data.Physicallocation,
+                PhoneNumber = data.PhoneNumber,
+                Mail = data.Mail,
                 RequesterName = member.Name,
                 RequesterUserPrincipalName = member.UserPrincipalName,
                 RequesterGivenName = member.GivenName,
