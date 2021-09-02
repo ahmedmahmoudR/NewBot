@@ -84,24 +84,28 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
 
             actionsList.Add(this.CreateChatWithUserAction());
 
-            actionsList.Add(new AdaptiveShowCardAction
-            {
-                Title = Resource.ChangeStatusButtonText,
-                Card = new AdaptiveCard("1.0")
-                {
-                    Body = new List<AdaptiveElement>
-                    {
-                        this.GetAdaptiveChoiceSetInput(),
-                    },
-                    Actions = new List<AdaptiveAction>
-                    {
-                        new AdaptiveSubmitAction
-                        {
-                            Data = new ChangeTicketStatusPayload { TicketId = this.Ticket.TicketId }
-                        }
-                    },
-                }
-            });
+          /// Change Status
+
+            //actionsList.Add(new AdaptiveShowCardAction
+            //{
+            //    Title = Resource.ChangeStatusButtonText,
+            //    Card = new AdaptiveCard("1.0")
+            //    {
+            //        Body = new List<AdaptiveElement>
+            //        {
+            //            this.GetAdaptiveChoiceSetInput(),
+            //        },
+            //        Actions = new List<AdaptiveAction>
+            //        {
+            //            new AdaptiveSubmitAction
+            //            {
+            //                Data = new ChangeTicketStatusPayload { TicketId = this.Ticket.TicketId }
+            //            }
+            //        },
+            //    }
+            //});
+
+
 
             if (!string.IsNullOrEmpty(this.Ticket.KnowledgeBaseAnswer))
             {
