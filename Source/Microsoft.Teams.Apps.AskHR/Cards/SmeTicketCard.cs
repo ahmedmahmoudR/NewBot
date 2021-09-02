@@ -212,20 +212,20 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                 });
             }
 
-            factList.Add(new AdaptiveFact
-            {
-                Title = Resource.StatusFactTitle,
-                Value = CardHelper.GetTicketDisplayStatusForSme(this.Ticket),
-            });
+            //factList.Add(new AdaptiveFact
+            //{
+            //    Title = Resource.StatusFactTitle,
+            //    Value = CardHelper.GetTicketDisplayStatusForSme(this.Ticket),
+            //});
 
-            if (this.Ticket.Status == (int)TicketState.Closed)
-            {
-                factList.Add(new AdaptiveFact
-                {
-                    Title = Resource.ClosedFactTitle,
-                    Value = CardHelper.GetFormattedDateInUserTimeZone(this.Ticket.DateClosed.Value, localTimestamp),
-                });
-            }
+            //if (this.Ticket.Status == (int)TicketState.Closed)
+            //{
+            //    factList.Add(new AdaptiveFact
+            //    {
+            //        Title = Resource.ClosedFactTitle,
+            //        Value = CardHelper.GetFormattedDateInUserTimeZone(this.Ticket.DateClosed.Value, localTimestamp),
+            //    });
+            //}
 
             return factList;
         }
