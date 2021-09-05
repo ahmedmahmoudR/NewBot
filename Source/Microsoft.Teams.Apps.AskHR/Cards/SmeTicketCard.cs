@@ -140,7 +140,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
 
             return new AdaptiveOpenUrlAction
             {
-                Title = string.Format(Resource.ChatTextButton, this.Ticket.RequesterGivenName),
+                Title = string.Format(Resource.ChatTextButton, this.Ticket.RequesterUserPrincipalName),
                 Url = new Uri($"https://teams.microsoft.com/l/chat/0/0?users={Uri.EscapeDataString(this.Ticket.RequesterUserPrincipalName)}&message={encodedMessage}")
             };
         }
