@@ -56,7 +56,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                  
                     new AdaptiveTextBlock
                     {
-                        Text = string.Format(Resource.QuestionForExpertSubHeaderText, this.Ticket.RequesterName),
+                        Text = string.Format(Resource.QuestionForExpertSubHeaderText, this.Ticket.RequesterUserPrincipalName),
                         Wrap = true,
                     },
                     new AdaptiveFactSet
@@ -140,7 +140,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
 
             return new AdaptiveOpenUrlAction
             {
-                Title = string.Format(Resource.ChatTextButton, this.Ticket.RequesterUserPrincipalName),
+                Title = string.Format(Resource.ChatTextButton, this.Ticket.RequesterName),
                 Url = new Uri($"https://teams.microsoft.com/l/chat/0/0?users={Uri.EscapeDataString(this.Ticket.RequesterUserPrincipalName)}&message={encodedMessage}")
             };
         }
