@@ -484,7 +484,7 @@ namespace Microsoft.Teams.Apps.AskHR.Properties {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to I&apos;ve shared your question with the related experts. They&apos;ll respond to you directly with a chat message..
+        ///   Looks up a localized string similar to شكرا و سوف يتم النظر في طلبك الان .
         /// </summary>
         public static string NotificationCardContent {
             get {

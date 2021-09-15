@@ -44,6 +44,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                     {
                         Text = message,
                         Wrap = true,
+                    
                     },
                     new AdaptiveFactSet
                     {
