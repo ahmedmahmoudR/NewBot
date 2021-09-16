@@ -100,11 +100,12 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
         private List<AdaptiveFact> BuildFactSet(TicketEntity ticket, DateTimeOffset? activityLocalTimestamp)
         {
             List<AdaptiveFact> factList = new List<AdaptiveFact>();
-            factList.Add(new AdaptiveFact
-            {
-                Title = Resource.StatusFactTitle,
-                Value = CardHelper.GetUserTicketDisplayStatus(this.ticket),
-            });
+
+            //factList.Add(new AdaptiveFact
+            //{
+            //    Title = Resource.StatusFactTitle,
+            //    Value = CardHelper.GetUserTicketDisplayStatus(this.ticket),
+            //});
 
             factList.Add(new AdaptiveFact
             {
