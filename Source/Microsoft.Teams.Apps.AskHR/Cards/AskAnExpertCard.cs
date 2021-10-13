@@ -145,6 +145,28 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                         Spacing = AdaptiveSpacing.Small,
                         Value = data.Location,
                     },
+
+
+                     new AdaptiveTextBlock
+                    {
+                        Text = "Please Group ",
+                        Wrap = true
+                    },
+
+
+                   new AdaptiveChoiceSetInput
+                    {
+                        Type = AdaptiveChoiceSetInput.TypeName,
+                        Id = "Choices",
+                        IsMultiSelect = false,
+                        Value = "Choose a plan",
+                        Choices = new List<AdaptiveChoice>
+                        {
+                            new AdaptiveChoice() { Title = "Cairo", Value = "Cairo" },
+                            new AdaptiveChoice() { Title = "Alex", Value = "Alex" }
+                        },
+                    },
+
                      new AdaptiveTextBlock
                     {
                         Text = "Mail ",

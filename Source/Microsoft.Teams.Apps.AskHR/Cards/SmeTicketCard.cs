@@ -215,7 +215,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
             //factList.Add(new AdaptiveFact
             //{
             //    Title = Resource.StatusFactTitle,
-            //    Value = CardHelper.GetTicketDisplayStatusForSme(this.Ticket),
+            //    Value = CardHelper.GetTicketDisplayStatusForSme(this.Ticket),4
             //});
 
             //if (this.Ticket.Status == (int)TicketState.Closed)
