@@ -722,6 +722,7 @@ namespace Microsoft.Teams.Apps.AskHR.Bots
                 Status = (int)TicketState.Open,
                 DateCreated = DateTime.UtcNow,
                 Cairo = data.Cairo,
+                Alex = data.Alex,
                 Title = data.Title,
                 Description = data.Description,
                 Location = data.Location,

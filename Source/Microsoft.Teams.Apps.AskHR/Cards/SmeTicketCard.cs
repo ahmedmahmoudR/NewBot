@@ -209,7 +209,16 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                 factList.Add(new AdaptiveFact
                 {
                     Title = "Group",
-                    Value = "Cairo",
+                    Value = this.Ticket.Cairo,
+                });
+            }
+
+            if (!string.IsNullOrEmpty(this.Ticket.Alex))
+            {
+                factList.Add(new AdaptiveFact
+                {
+                    Title = "Group",
+                    Value = this.Ticket.Alex,
                 });
             }
 

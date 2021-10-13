@@ -36,6 +36,8 @@ namespace Microsoft.Teams.Apps.AskHR.Models
         /// </summary>
        public string Cairo = "Cairo";
 
+
+        public string Alex = "Alex";
         /// <summary>
         /// Gets or sets the add loction.
         /// </summary>
