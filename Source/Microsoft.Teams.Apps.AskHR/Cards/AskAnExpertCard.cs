@@ -1,5 +1,5 @@
 ﻿// <copyright file="AskAnExpertCard.cs" company="Microsoft">
-// Copyright (c) Microsoft. All rights reserved.
+// Copyright (c) Microsoft. All rights reserve.
 // </copyright>
 
 namespace Microsoft.Teams.Apps.AskHR.Cards
@@ -167,8 +167,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                             new AdaptiveChoice() { Title = "Cairo", Value = data.Cairo },
                             new AdaptiveChoice() { Title = "Alex", Value = "Alex" }
                         },
-                    },
-
+                    }, 
                      new AdaptiveTextBlock
                     {
                         Text = "Mail ",
