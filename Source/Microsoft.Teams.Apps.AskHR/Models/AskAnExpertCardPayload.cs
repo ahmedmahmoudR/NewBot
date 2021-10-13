@@ -31,7 +31,10 @@ namespace Microsoft.Teams.Apps.AskHR.Models
         /// </summary>
         public string Physicallocation { get; set;}
 
-
+        /// <summary>
+        /// Gets or sets the add Cairo.
+        /// </summary>
+       public string Cairo = "Cairo";
 
         /// <summary>
         /// Gets or sets the add loction.
@@ -43,6 +46,8 @@ namespace Microsoft.Teams.Apps.AskHR.Models
         /// Gets or sets the add loction.
         /// </summary>
         public string Mail { get; set;}
+
+     
 
 
         /// <summary>

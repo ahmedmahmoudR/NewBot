@@ -161,9 +161,10 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                         IsMultiSelect = false,
                         Style = AdaptiveChoiceInputStyle.Compact,
                         Value = "Choose a plan",
+
                         Choices = new List<AdaptiveChoice>
                         {
-                            new AdaptiveChoice() { Title = "Cairo", Value = "Cairo" },
+                            new AdaptiveChoice() { Title = "Cairo", Value = data.Cairo },
                             new AdaptiveChoice() { Title = "Alex", Value = "Alex" }
                         },
                     },

@@ -721,6 +721,7 @@ namespace Microsoft.Teams.Apps.AskHR.Bots
                 TicketId = Guid.NewGuid().ToString(),
                 Status = (int)TicketState.Open,
                 DateCreated = DateTime.UtcNow,
+                Cairo = data.Cairo,
                 Title = data.Title,
                 Description = data.Description,
                 Location = data.Location,

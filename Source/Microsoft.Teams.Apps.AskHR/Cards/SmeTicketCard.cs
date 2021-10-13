@@ -203,6 +203,17 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
             }
 
 
+
+            if (this.ticket.Cairo == "Cairo")
+            {
+                factList.Add(new AdaptiveFact
+                {
+                    Title = "Group",
+                    Value = "Cairo",
+                });
+            }
+
+
             if (!string.IsNullOrEmpty(this.Ticket.UserQuestion))
             {
                 factList.Add(new AdaptiveFact

@@ -15,6 +15,8 @@ namespace Microsoft.Teams.Apps.AskHR.Common.Models
     /// </summary>
     public class TicketEntity : TableEntity
     {
+        public string Cairo;
+
         /// <summary>
         /// Gets or sets the unique ticket ID
         /// </summary>
