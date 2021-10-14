@@ -174,15 +174,6 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                 });
             }
 
-                if (!string.IsNullOrEmpty(this.Ticket.Physicallocation))
-            {
-                factList.Add(new AdaptiveFact
-                {
-                    Title = "Your physical location  :",
-                    Value = this.Ticket.Physicallocation,
-                });
-            }
-
             if (!string.IsNullOrEmpty(this.Ticket.PhoneNumber))
             {
                 factList.Add(new AdaptiveFact
@@ -206,7 +197,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
             {
                 factList.Add(new AdaptiveFact
                 {
-                    Title = "Group",
+                    Title = "Location: ",
                     Value = this.Ticket.Choices,
                 });
             }

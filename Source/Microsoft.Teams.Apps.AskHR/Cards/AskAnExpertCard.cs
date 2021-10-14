@@ -149,7 +149,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
 
                      new AdaptiveTextBlock
                     {
-                        Text = "Please Group ",
+                        Text = "Location",
                         Wrap = true
                     },
 
@@ -174,7 +174,7 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                             new AdaptiveChoice() { Title = "Small Branches & Service Center ", Value = "Small Branches & Service Center " },
                             new AdaptiveChoice() { Title = "بورسعيد -الاسكندرية-طنطا - المنصوره ", Value = "بورسعيد -الاسكندرية-طنطا - المنصوره" },
                             new AdaptiveChoice() { Title = "قليوبية", Value = "قليوبية" },
-                            new AdaptiveChoice() { Title = "قويسنا ", Value = "قليوبية" },
+                            new AdaptiveChoice() { Title = "قويسنا ", Value = "قويسنا" },
                         },
                     }, 
                      new AdaptiveTextBlock
@@ -204,19 +204,6 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                         Spacing = AdaptiveSpacing.Small,
                         Value = data.PhoneNumber,
                     },
-                    new AdaptiveTextBlock
-                    {
-                        Text = "Your physical location ",
-                        Wrap = true
-                    },
-                    new AdaptiveTextInput
-                    {
-                    Id = nameof(AskAnExpertCardPayload.Physicallocation),
-                        Placeholder = Resource.ShowCardTitleText,
-                        IsMultiline = false,
-                        Spacing = AdaptiveSpacing.Small,
-                        Value = data.Physicallocation,
-                    }
                 },
                
                 Actions = new List<AdaptiveAction>
