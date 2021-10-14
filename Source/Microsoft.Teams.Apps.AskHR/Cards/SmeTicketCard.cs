@@ -202,23 +202,12 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
                 });
             }
 
-
-
-            if (this.ticket.Cairo == "Cairo")
+            if (!string.IsNullOrEmpty(this.Ticket.Choices))
             {
                 factList.Add(new AdaptiveFact
                 {
                     Title = "Group",
-                    Value = this.Ticket.Cairo,
-                });
-            }
-
-            if (!string.IsNullOrEmpty(this.Ticket.Alex))
-            {
-                factList.Add(new AdaptiveFact
-                {
-                    Title = "Group",
-                    Value = this.Ticket.Alex,
+                    Value = this.Ticket.Choices,
                 });
             }
 

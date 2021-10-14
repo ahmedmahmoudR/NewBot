@@ -34,10 +34,8 @@ namespace Microsoft.Teams.Apps.AskHR.Models
         /// <summary>
         /// Gets or sets the add Cairo.
         /// </summary>
-       public string Cairo = "Cairo";
+       public string Choices { get; set; }
 
-
-        public string Alex = "Alex";
         /// <summary>
         /// Gets or sets the add loction.
         /// </summary>

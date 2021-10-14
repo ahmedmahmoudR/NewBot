@@ -180,6 +180,8 @@ namespace Microsoft.Teams.Apps.AskHR.Common.Models
         [JsonProperty("Timestamp")]
         public new DateTimeOffset Timestamp => base.Timestamp;
 
+        public string Choices { get; set; }
+
         /// <summary>
         /// Checks whether or not a ticket is assigned.
         /// </summary>

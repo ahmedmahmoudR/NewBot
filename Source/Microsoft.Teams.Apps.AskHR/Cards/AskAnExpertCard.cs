@@ -164,8 +164,8 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
 
                         Choices = new List<AdaptiveChoice>
                         {
-                            new AdaptiveChoice() { Title = "Cairo", Value = data.Cairo },
-                            new AdaptiveChoice() { Title = "Alex", Value = data.Alex }
+                            new AdaptiveChoice() { Title = "Cairo", Value = "Cairo" },
+                            new AdaptiveChoice() { Title = "Alex", Value = "Alex" }
                         },
                     }, 
                      new AdaptiveTextBlock
