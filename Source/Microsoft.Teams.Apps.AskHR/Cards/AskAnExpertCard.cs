@@ -164,8 +164,17 @@ namespace Microsoft.Teams.Apps.AskHR.Cards
 
                         Choices = new List<AdaptiveChoice>
                         {
-                            new AdaptiveChoice() { Title = "Cairo", Value = "Cairo" },
-                            new AdaptiveChoice() { Title = "Alex", Value = "Alex" }
+                            new AdaptiveChoice() { Title = "العباسية ", Value = "العباسية" },
+                            new AdaptiveChoice() { Title = "اسيوط & منيا ", Value = "اسيوط & منيا" },
+                            new AdaptiveChoice() { Title = "بني سويف ", Value = "بني سويف" },
+                            new AdaptiveChoice() { Title = "بنها", Value = "بنها" },
+                            new AdaptiveChoice() { Title = "كول سنتر ", Value = "كول سنتر " },
+                            new AdaptiveChoice() { Title = "هليوپوليس ", Value = "هليوپوليس " },
+                            new AdaptiveChoice() { Title = "Showroom ", Value = "Showroom " },
+                            new AdaptiveChoice() { Title = "Small Branches & Service Center ", Value = "Small Branches & Service Center " },
+                            new AdaptiveChoice() { Title = "بورسعيد -الاسكندرية-طنطا - المنصوره ", Value = "بورسعيد -الاسكندرية-طنطا - المنصوره" },
+                            new AdaptiveChoice() { Title = "قليوبية", Value = "قليوبية" },
+                            new AdaptiveChoice() { Title = "قويسنا ", Value = "قليوبية" },
                         },
                     }, 
                      new AdaptiveTextBlock
